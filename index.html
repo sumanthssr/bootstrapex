@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Optimus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="optimus" content="optimus">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+  </head>
+
+  <body>
+  <!--Header code starts from here--> 
+    <header class="top">
+      <div class="container-fluid">
+        <div class="row">
+          
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <nav class="navbar navbar-custom navbar-fixed-top navbar-default style">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <img src="images/optimus.png" height="52" alt="logo" > 
+
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav list">
+                  <li class>
+                    <a href="#">
+                    <span class="glyphicon"></span><strong>HOME</strong>
+                    </a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon "></span><strong>ABOUT US</strong>
+                    <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu new">
+                      <li class="div"><a href="#">JAVA TRAINING</a></li>
+                      <li class="div"><a href="#">DOT NET TRAINING</a></li>
+                      <li class="div"><a href="#">FULL STACK</a></li>
+                      <li class="div"><a href="#">ACADEMIC PROJECT</a></li>
+                      <li class="div"><a href="#">FINISHING SCHOOL</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon "></span><strong>TRAINING</strong>
+                    <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu new">
+                      <li class="div"><a href="#">JAVA TRAINING</a></li>
+                      <li class="div"><a href="#">DOT NET TRAINING</a></li>
+                      <li class="div"><a href="#">FULL STACK</a></li>
+                      <li class="div"><a href="#">ACADEMIC PROJECT</a></li>
+                      <li class="div"><a href="#">FINISHING SCHOOL</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon "></span><strong>CONSULTING</strong>
+                    <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu new">
+                      <li class="div"><a href="#">HR CONSULTING</a></li>
+                      <li class="div"><a href="#">MOCK INTERVIEWS</a></li>
+                      <li class="div"><a href="#">APTITUDE</a></li>
+                      <li class="div"><a href="#">GD SESSIONS</a></li>
+                      <li class="div"><a href="#">TECHNICAL SESSIONS</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon "></span><strong>CAREERS</strong>
+                    <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu new">
+                      <li class="div"><a href="#">HR CONSULTING</a></li>
+                      <li class="div"><a href="#">MOCK INTERVIEWS</a></li>
+                      <li class="div"><a href="#">APTITUDE</a></li>
+                      <li class="div"><a href="#">GD SESSIONS</a></li>
+                      <li class="div"><a href="#">TECHNICAL SESSIONS</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search" />
+                  </div>
+                  <button type="submit" class="btn btn-danger"><strong>Submit</strong></button>
+                </form>
+                    <ul class="nav navbar-nav pull-right style">
+                      <li class="dropdown style">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+                          <ul class="dropdown-menu style">
+                              <li>
+                                  <a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+                              </li>
+                              
+                              <li>
+                                  <a href="#"><span class="glyphicon glyphicon-refresh"></span>Create Profile</a>
+                              </li>
+                              
+                              <li>
+                                  <a href="#"><span class="glyphicon glyphicon-briefcase"></span>Amount</a>
+                              </li>
+                              
+                              <li class="divider"></li>
+                              
+                              <li>
+                                  <a href="#"><span class="glyphicon glyphicon-in"></span> Sign In</a>
+                              </li>
+                          </ul>
+                      </li>
+                    </ul><!-- end nav pull-right -->
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header> 
+    <br>
+    <br>
+    <br>
+    
+    <!--Hero section consists of carousel-->   
+    <div class="container-fluid">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <!-- Indicators -->
+        <ol class="carousel-indicators visible-lg">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/main1.png" alt="Los Angeles" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="images/main2.png" alt="Chicago" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="images/main3.png" alt="New york" style="width:100%;">
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!--Image gallery starts from here-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="main"><b>What we do?</b></h3>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="container">
+               <a href="slide1.png" class="thumbnail">
+                  <img src="images/slide1.png" alt="academics">
+                   <div class="overlay">
+                     <div class="text"></div>
+                   </div>
+               </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="container">
+               <a href="slide1.png" class="thumbnail">
+                  <img src="images/slide1.png" alt="academics">
+                   <div class="overlay">
+                     <div class="text"></div>
+                   </div>
+               </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="container">
+               <a href="slide1.png" class="thumbnail">
+                  <img src="images/slide1.png" alt="placements">
+                   <div class="overlay">
+                     <div class="text"></div>
+                   </div>
+               </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="container">
+               <a href="slide1.png" class="thumbnail">
+                  <img src="images/slide1.png" alt="studies">
+                   <div class="overlay">
+                     <div class="text"></div>
+                   </div>
+               </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="container">
+               <a href="slide1.png" class="thumbnail">
+                  <img src="images/slide1.png" alt="HR">
+                   <div class="overlay">
+                     <div class="text"></div>
+                   </div>
+               </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container-fluid">
+          <h2 class="main">Welcome to Optimus Services</h2>
+          <p class="main">Training || Consulting </p>
+        <br>
+        <br>
+        <section>
+        <h3 class="content">
+          Skill development for the Information Technology Industry with a <span class="highlight">optimus</span> approach is the goal at OPTIMUS. Skills at OPTIMUS means those skills required not only for acquiring jobs but also help budding professionals to lay a strong foundation and manage a better career path for a bright future.
+        </h3>
+        </section>
+        <section>
+        <h3 class="content">
+          Educated but unemployed is what is understood by our company of professionals. This understanding leads us to design those specific and need based vocational content which is on demand in the IT Industry circles.
+        </h3>
+        </section>
+        <section>
+        <h3 class="content">
+          Education Simplified is our Sutra/Mantra. As the solutions of the IT Industry are to make life of the user simple, it needs a huge pool of young talented professionals to cut an edge thru IT solutions. This demands a system of training which helps the fresh graduates to learn thru simple methods yet deliver cutting edge solutions. Learning is made easier thru our Concept based Learning methods. All these only to suit the needs of the Industry.
+        </h3>
+        </section>
+        <section>
+        <h3 class="content">
+          Our core team specializes in understanding the capabilities of the students so as to decide to be trained or coached or facilitated. This expertise of our company is well recognized by the industry thru their placements offers to our students
+        </h3>
+        </section>
+        <br>
+        <br>
+          <button class="btn btn-primary" data-target="#loginModal" data-toggle="modal">Get Started</button>
+            <div class="modal fade" tabindex="1" id="loginModal"
+              data-keyboard="false" >
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                    </button>
+                    <br>
+                    <br>
+                    <h4 class="modal-title">Login</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="inputUserName">Username</label>
+                        <input class="form-control" placeholder="Login Username"
+                          type="text" id="inputUserName" />
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword">Password</label>
+                        <input class="form-control" placeholder="Login Password"
+                          type="password" id="inputPassword" />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="button" class="btn btn-primary"
+                      data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <!-- List of placed students -->
+    <h3 class="main">Our Placed Students</h3>
+    <hr>
+    <div class="container">
+      <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel2" data-slide-to="1"></li>
+          <li data-target="#myCarousel2" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/place1.png" alt="Los Angeles" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="images/place1.png" alt="Chicago" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="images/place1.png" alt="New york" style="width:100%;">
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br>
+    <!--List of clients-->
+    <h3 class="main">Our clients</h3>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="col-lg-12">
+      </div>
+      <div id="myCarousel3" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel3" data-slide-to="1"></li>
+          <li data-target="#myCarousel3" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/comp5.png" alt="Los Angeles" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="images/comp5.png" alt="New york" style="width:100%;">
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Enquiry form -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="customdiv">
+            <div class="well well-sm">
+		    <h3>Enquiries Form</h3>
+		    <hr />
+		    <form>
+	              <div class="form-group">
+	                <label for="enter_email">Email address</label>
+	                <input type="email" class="form-control" id="enter_email" aria-describedby="emailHelp" placeholder="Enter email" required="required">
+	                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	              </div>
+	              <div class="form-group">
+	                <label for="enter_mobile">Enter mobile number</label>
+	                <input type="tel" class="form-control" id="enter_mobile" placeholder="Mobile number" required="required">
+	              </div>
+	              <div class="form-group">
+	                <label for="enter_msg">Enter  your message</label>
+	                <textarea class="form-control" id="enter_msg" rows="3" required="required"></textarea>
+	              </div>
+	              <button type="button" class="btn btn-primary" onClick="validate()">Submit</button>
+            </form>
+            <div>
+            	<p id="error_msg"></p>
+            	<p id="show_email"></p>
+            	<p id="show_mobile"></p>
+            	<p id="show_msg"></p>
+            </div>
+		</div>
+          </div>
+        </div>
+        <div class="col-md-6  ">
+          <div id="accordion" class="panel-group">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a href="#panelBodyOne" data-toggle="collapse" data-parent="#accordion">
+                  Our Value
+                  </a>
+                </h4>
+              </div>
+              <div id="panelBodyOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <p>
+                    Our offshore development facilities in Vietnam afford us the flexibility to charge competitive prices for our quality work. Our near decade of specializations and expertise guarantee that Orient Software's development costs are the most affordable relative to value added, and our finished products are of superior quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a href="#panelBodyTwo" data-toggle="collapse" data-parent="#accordion">
+                  Talented People
+                  </a>
+                </h4>
+              </div>
+              <div id="panelBodyTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>
+                    We love technology, and we are proud of our far-reaching technical abilities. We have some of the highest recruitment standards in the industry, with candidates going through a rigorous selection process with multiple interviews and tests to demonstrate their abilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a href="#panelBodyThree" data-toggle="collapse" data-parent="#accordion">
+                  Professional Atmosphere
+                  </a>
+                </h4>
+              </div>
+              <div id="panelBodyThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>
+                    We believe that a professional and modern work atmosphere is critical to the success of our employees and our business. So we have gone to great lengths to create a high-end office space, with numerous meeting and conference rooms, top of the line hardware and all the equipment necessary to satisfy professional employees.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- location on google map -->
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="main2">Location on google map</h3>
+        <div class="col-md-6">
+          <div class="customdiv">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7460649128175!2d77.60726091425147!3d12.924035790887144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14fe9206f413%3A0x87b6a18d84575bbd!2sZolo+Skyfall!5e0!3m2!1sen!2sus!4v1504693501402" width="100%" height="450" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- embedded youtube video -->
+        <div class="col-md-6">
+          <div class="customdiv">
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/0ObMUqtZcX0"  allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer code starts from here -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <form action="#home" method="get">
+              
+                <h2>Newsletter</h2>
+                <label>Name:   </label>
+                <input />
+              
+              <p>
+                <label>EmailID:</label>
+                <input /><br>
+              </p>
+              <div class="form-group ">
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-2" id="first">
+            <h3>Corporate Info</h3>
+            <ul>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Ethical sources</a></li>
+              <li><a href="#">Links</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Environment</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Diversity</a></li>
+            </ul>
+          </div>
+          <!-- end col-sm-2 -->
+          <div class="col-sm-2" id="second">
+            <ul>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms &amp; conditions</a></li>
+              <li><a href="#">Meet our Team</a></li>
+              <li><a href="#">Download E-brochure</a></li>
+              <li><a href="#">CSR</a></li>
+            </ul>
+          </div>
+          <!-- end col-sm-2 -->
+          <div class="col-sm-4" id="contact">
+            <h2>Connect us</h2>
+            <a href="https://www.facebook.com/NIT.Warangal/" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+            </a>
+            <!-- Google+ -->
+            <a href="https://www.facebook.com/NIT.Warangal/" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.facebook.com/NIT.Warangal/" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+            </a> 
+            <h6 id="bottomline"><strong>Designed<span class="glyphicon glyphicon-heart"></span> by Sumanth Reddy</strong></h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+	    <!-- form validation -->
+	  <script type="text/javascript">
+	    var email_id = document.getElementById('enter_email');
+	    var mobile = document.getElementById('enter_mobile');
+	    var msg = document.getElementById('enter_msg');
+	    var show_error = document.getElementById('error_msg');
+
+	    function validate(){
+	      reset_para();
+	      show_error.innerHTML = "" ;
+	      var check = check_email() && check_mobile() && check_msg()
+	      if(check){
+	        show_details();
+	      }
+	      else{
+	        show_error.innerHTML += "<br>Fields is/are wrongly entered!" ;
+	        reset_para();
+	      }
+
+	    }
+
+	    function reset_para(){
+	      msg.innerHTML = "" ;
+	      mobile.innerHTML = "" ;
+	      email_id.innerHTML = "" ;
+	    }
+	    function check_email(){
+	      
+	      var check = (email_id.value.includes('@') && email_id.value.includes('@'))
+	      console.log(check);
+	      show_error.innerHTML += (check ? " ": "<br>Email is wrongly entered.")
+	      return check
+	    }
+
+	    function check_mobile(){
+	      var check = (/^\d{10}$/).test(mobile.value);
+	      show_error.innerHTML += (check ? " ": "<br>Mobile is wrongly entered.")
+	      return check
+	    }
+
+	    function check_msg(){
+	      var check = (msg.value.length != 0);
+	      show_error.innerHTML += (check ? " ": "<br>Msg is empty.")
+	      return check;
+	    }
+
+	    function show_details() {
+	      console.log(email_id.value);
+	      show_email.innerHTML = " Your entered values are: <br>" + "Email: " +  email_id.value ;
+
+	      var show_mobile = document.getElementById('show_mobile');
+	      console.log(mobile.value);
+	      show_mobile.innerHTML = "<br> Mobile:" + mobile.value + "<br>";
+
+	      
+	      var show_msg = document.getElementById('show_msg');
+	      console.log(msg.value);
+	      show_msg.textContent = "Message: " + msg.value ;
+	    
+
+	    }
+	  </script>
+  </body>
+</html>
